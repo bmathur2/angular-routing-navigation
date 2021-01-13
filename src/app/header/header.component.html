@@ -1,0 +1,20 @@
+<header class="header-part">
+    <div class="container">
+        <a [routerLink]="['']" class="brand-logo">
+            <h1>Company Logo</h1>
+        </a>
+        <input type="checkbox" id="toggle" class="input-toggler">
+        <label for="toggle" class="burger-menu">
+            <i class="spt-img burger-menu-open"></i>
+        </label>
+        <nav class="menu-block sidebar">
+            <ul class="navbar">
+                <li><a class="menu-item-1" [routerLink]="['/key-features']">Key Features</a></li>
+                <li><a class="menu-item-2" [routerLink]="['/pricing']">Pricing</a></li>
+                <li><a class="menu-item-3" [routerLink]="['/contactus']">Contact Us</a></li>
+                <li class="btn-get"><a [routerLink]="['/get-started']">Get Started</a></li>
+                <li class="btn-get"><a [routerLink]="['/login']">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>

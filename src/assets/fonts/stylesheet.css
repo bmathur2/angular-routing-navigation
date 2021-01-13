@@ -1,0 +1,6 @@
+@font-face { font-family: 'noto_sanscondensed'; src: url('notosans-condensed-webfont.woff2') format('woff2'),  url('notosans-condensed-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'noto_sanscondensed_light'; src: url('notosans-condensedlight-webfont.woff2') format('woff2'),  url('notosans-condensedlight-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'noto_sanslight'; src: url('notosans-light-webfont.woff2') format('woff2'),  url('notosans-light-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'noto_sansregular'; src: url('notosans-regular-webfont.woff2') format('woff2'),  url('notosans-regular-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'noto_sanssemibold'; src: url('notosans-semibold-webfont.woff2') format('woff2'),  url('notosans-semibold-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'noto_sanssemicondensed_bold'; src: url('notosans-semicondensedbold-webfont.woff2') format('woff2'),  url('notosans-semicondensedbold-webfont.woff') format('woff'); font-weight: normal; font-style: normal; }

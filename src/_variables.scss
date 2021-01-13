@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'noto_sansregular';
+    src: url('/assets/fonts/notosans-regular-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sanslight';
+    src: url('/assets/fonts/notosans-light-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sanssemibold';
+    src: url('/assets/fonts/notosans-semibold-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sanscondensed';
+    src: url('/assets/fonts/notosans-condensed-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sanscondensed_light';
+    src: url('/assets/fonts/notosans-condensedlight-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-condensedlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'noto_sanssemicondensed_bold';
+    src: url('/assets/fonts/notosans-semicondensedbold-webfont.woff2') format('woff2'), url('/assets/fonts/notosans-semicondensedbold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*color code, font family,border-radius avariable*/
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary-blue: #002143;
+    --secondary-blue: #97d1ff;
+    --light-blue: #cbd6ec;
+    --light-blue1: #f5f7fb;
+    --dark-blue: #0089e8;
+    --light-blue2: #46b0ee;
+    --light-blue3: #17599f;
+    --light-blue4: #00346a;
+    --blue-light1: #beddef;
+    --orange-primary: #FF6F00;
+    --orange-light: #ff8c33;
+    --gyay: #ddd;
+    --gyay-light: #848484;
+    --gyay-light1: #b2b2b2;
+    --gyay-light2: #858585;
+    --dark-gray: #545353;
+    --dark-gray1: #333333;
+    --font-family-regular: 'noto_sansregular';
+    --font-family-light: 'noto_sanslight';
+    --font-family-semibold: 'noto_sanssemibold';
+    --font-family-condensed: 'noto_sanscondensed';
+    --font-family-condensedlight: 'noto_sanscondensed_light';
+    --font-family-condensedsemibold: 'noto_sanssemicondensed_bold';
+    --border-radius50: 50px;
+    --border-radius3: 3px;
+}

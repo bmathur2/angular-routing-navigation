@@ -1,0 +1,270 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'noto_sansregular';
+  src: url("/assets/fonts/notosans-regular-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sanslight';
+  src: url("/assets/fonts/notosans-light-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sanssemibold';
+  src: url("/assets/fonts/notosans-semibold-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sanscondensed';
+  src: url("/assets/fonts/notosans-condensed-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-condensed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sanscondensed_light';
+  src: url("/assets/fonts/notosans-condensedlight-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-condensedlight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'noto_sanssemicondensed_bold';
+  src: url("/assets/fonts/notosans-semicondensedbold-webfont.woff2") format("woff2"), url("/assets/fonts/notosans-semicondensedbold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*color code, font family,border-radius avariable*/
+:root {
+  --white: #fff;
+  --black: #000;
+  --primary-blue: #002143;
+  --secondary-blue: #97d1ff;
+  --light-blue: #cbd6ec;
+  --light-blue1: #f5f7fb;
+  --dark-blue: #0089e8;
+  --light-blue2: #46b0ee;
+  --light-blue3: #17599f;
+  --light-blue4: #00346a;
+  --blue-light1: #beddef;
+  --orange-primary: #FF6F00;
+  --orange-light: #ff8c33;
+  --gyay: #ddd;
+  --gyay-light: #848484;
+  --gyay-light1: #b2b2b2;
+  --gyay-light2: #858585;
+  --dark-gray: #545353;
+  --dark-gray1: #333333;
+  --font-family-regular: 'noto_sansregular';
+  --font-family-light: 'noto_sanslight';
+  --font-family-semibold: 'noto_sanssemibold';
+  --font-family-condensed: 'noto_sanscondensed';
+  --font-family-condensedlight: 'noto_sanscondensed_light';
+  --font-family-condensedsemibold: 'noto_sanssemicondensed_bold';
+  --border-radius50: 50px;
+  --border-radius3: 3px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-size: 10px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-size: 14px;
+  font-family: var(--font-family-regular);
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper-content {
+  width: 100%;
+  padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+  .wrapper-content {
+    padding-top: 78px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section-block {
+  width: 100%;
+  margin: 0;
+  padding: 100px 0;
+}
+
+@media (max-width: 767px) {
+  .section-block {
+    padding: 30px 0;
+  }
+}
+
+.heading-primary {
+  width: 100%;
+  margin: 0 0 80px 0;
+  padding: 0;
+  position: relative;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: var(--primary-blue);
+  font-family: var(--font-family-semibold);
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (max-width: 1440px) {
+  .heading-primary {
+    font-size: 48px;
+    margin: 0 0 60px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading-primary {
+    margin: 0 0 40px 0;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 767px) {
+  .heading-primary {
+    margin: 0 0 40px 0;
+    font-size: 30px;
+  }
+}
+
+.heading-primary:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background: var(--light-blue3);
+  left: 50%;
+  bottom: -5px;
+  margin-left: -50px;
+}
+
+.box-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.static-page {
+  min-height: 400px;
+  padding-top: 130px;
+}
+
+.spt-img {
+  background: url(/assets/images/spt-img.png) top left no-repeat;
+  width: 35px;
+  height: 35px;
+  display: block;
+}
+
+.fb-icon {
+  background-position: 0 0px;
+}
+
+.fb-icon:hover {
+  background-position: -35px 0px;
+}
+
+.tw-icon {
+  background-position: 0px -36px;
+}
+
+.tw-icon:hover {
+  background-position: -35px -36px;
+}
+
+.in-icon {
+  background-position: 0 -74px;
+}
+
+.in-icon:hover {
+  background-position: -35px -74px;
+}
+
+.email-icon {
+  background-position: -78px -4px;
+  display: inline-block;
+  width: 24px;
+  height: 17px;
+}
+
+.phone-icon {
+  background-position: -82px -28px;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.address-icon {
+  background-position: -85px -59px;
+  display: inline-block;
+  width: 19px;
+  height: 31px;
+}
+
+.burger-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.burger-menu .burger-menu-open {
+  background-position: -1px -110px;
+  display: inline-block;
+  width: 42px;
+  height: 30px;
+}
+
+.burger-menu .burger-menu-close {
+  background-position: -41px -110px;
+  display: inline-block;
+  width: 42px;
+  height: 30px;
+}
+/*# sourceMappingURL=styles.css.map */

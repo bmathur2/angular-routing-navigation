@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "variables";
+* {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 10px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-size: 14px;
+    font-family: var(--font-family-regular);
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper-content {
+    width: 100%;
+    padding-top: 100px;
+    @media (max-width: 767px) {
+        padding-top: 78px;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section-block {
+    width: 100%;
+    margin: 0;
+    padding: 100px 0;
+    @media (max-width: 767px) {
+        padding: 30px 0;
+    }
+}
+
+.heading-primary {
+    width: 100%;
+    margin: 0 0 80px 0;
+    padding: 0;
+    position: relative;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: var(--primary-blue);
+    font-family: var(--font-family-semibold);
+    font-weight: normal;
+    text-align: center;
+    @media (max-width: 1440px) {
+        font-size: 48px;
+        margin: 0 0 60px 0;
+    }
+    @media (max-width: 992px) {
+        margin: 0 0 40px 0;
+        font-size: 38px;
+    }
+    @media (max-width: 767px) {
+        margin: 0 0 40px 0;
+        font-size: 30px;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background: var(--light-blue3);
+        left: 50%;
+        bottom: -5px;
+        margin-left: -50px;
+    }
+}
+
+.box-reverse {
+    flex-direction: row-reverse;
+}
+
+.static-page {
+    min-height: 400px;
+    padding-top: 130px;
+}
+
+.spt-img {
+    background: url(/assets/images/spt-img.png) top left no-repeat;
+    width: 35px;
+    height: 35px;
+    display: block;
+}
+
+.fb-icon {
+    background-position: 0 0px;
+    &:hover {
+        background-position: -35px 0px;
+    }
+}
+
+.tw-icon {
+    background-position: 0px -36px;
+    &:hover {
+        background-position: -35px -36px;
+    }
+}
+
+.in-icon {
+    background-position: 0 -74px;
+    &:hover {
+        background-position: -35px -74px;
+    }
+}
+
+.email-icon {
+    background-position: -78px -4px;
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+}
+
+.phone-icon {
+    background-position: -82px -28px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+
+.address-icon {
+    background-position: -85px -59px;
+    display: inline-block;
+    width: 23px;
+    height: 31px;
+}
+
+.burger-menu {
+    display: flex;
+    .burger-menu-open {
+        background-position: -1px -110px;
+        display: inline-block;
+        width: 42px;
+        height: 30px;
+    }
+    .burger-menu-close {
+        background-position: -41px -110px;
+        display: inline-block;
+        width: 42px;
+        height: 30px;
+    }
+}
